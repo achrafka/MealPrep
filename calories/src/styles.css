@@ -1,0 +1,105 @@
+html, body {
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  margin:0;
+  padding: 0;
+}
+.container.block {
+  margin-top: 90px;
+}
+a {
+  cursor: pointer;
+}
+@font-face {
+  font-family: 'Colfax Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Colfax Regular'), url('./assets/fonts/colfax/Colfax-Regular.woff') format('woff');
+  }
+
+
+  @font-face {
+  font-family: 'Colfax Regular Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Colfax Regular Italic'), url('./assets/fonts/colfax/Colfax-RegularItalic.woff') format('woff');
+  }
+
+
+  @font-face {
+  font-family: 'Colfax Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Colfax Thin'), url('./assets/fonts/colfax/Colfax-Thin.woff') format('woff');
+  }
+
+
+  @font-face {
+  font-family: 'Colfax Thin Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Colfax Thin Italic'), url('./assets/fonts/colfax/Colfax-ThinItalic.woff') format('woff');
+  }
+
+
+  @font-face {
+  font-family: 'Colfax Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Colfax Light'), url('./assets/fonts/colfax/Colfax-Light.woff') format('woff');
+  }
+
+
+  @font-face {
+  font-family: 'Colfax Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Colfax Light Italic'), url('./assets/fonts/colfax/Colfax-LightItalic.woff') format('woff');
+  }
+
+
+  @font-face {
+  font-family: 'Colfax Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Colfax Medium'), url('./assets/fonts/colfax/Colfax-Medium.woff') format('woff');
+  }
+
+
+  @font-face {
+  font-family: 'Colfax Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Colfax Medium Italic'), url('./assets/fonts/colfax/Colfax-MediumItalic.woff') format('woff');
+  }
+
+
+  @font-face {
+  font-family: 'Colfax Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Colfax Bold'), url('./assets/fonts/colfax/Colfax-Bold.woff') format('woff');
+  }
+
+
+  @font-face {
+  font-family: 'Colfax Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Colfax Bold Italic'), url('./assets/fonts/colfax/Colfax-BoldItalic.woff') format('woff');
+  }
+
+
+  @font-face {
+  font-family: 'Colfax Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Colfax Black'), url('./assets/fonts/colfax/Colfax-Black.woff') format('woff');
+  }
+
+
+  @font-face {
+  font-family: 'Colfax Black Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Colfax Black Italic'), url('./assets/fonts/colfax/Colfax-BlackItalic.woff') format('woff');
+  }

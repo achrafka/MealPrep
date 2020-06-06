@@ -1,0 +1,210 @@
+div#concepts {
+  text-align: center;
+}
+.food-photo {
+margin-right: 15px;
+}
+
+div#predictions {
+  width: 100%;
+  display: flex;
+}
+
+.wrapper {
+margin: 60px auto;
+
+}
+
+.wrapper h1,
+.wrapper h2 {
+text-align: center;
+}
+
+.wrapper h2 {
+  color : #1f2933;
+font-weight: bold;
+margin-bottom: 3rem;
+}
+
+.wrapper form input[type='file'] {
+display: block;
+margin: 4rem auto;
+}
+
+.wrapper form button {
+background: #000000;
+border-color: #000000;
+border-radius: 5px;
+color: #fff;
+display: block;
+font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+font-size: 1rem;
+font-weight: bold;
+margin: 1rem auto;
+padding: 1rem;
+width: 100%;
+cursor: auto;
+}
+
+#predictions .food-photo,
+#predictions .nutrition {
+background-position: center center;
+background-repeat: no-repeat;
+background-size: contain;
+position: relative;
+flex: 1;
+
+}
+#predictions .nutrition {
+background: #f6f6f6;
+float: right;
+}
+
+#predictions #concepts h3 {
+margin: 0.25rem;
+}
+
+#predictions #concepts img {
+display: block;
+margin: auto;
+max-height: 300px;
+max-width: 95%;
+}
+
+#predictions #concepts .loading {
+height: 100px;
+width: 100px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.awel-phrase {
+  font-weight:bold;
+}
+
+.titres {
+display: none;
+width: 50%;
+margin: 0 auto;
+}
+.bar {
+border-radius: 15px;
+width:100%;
+background-color: #dddddd;
+}
+.bar_ {
+height: 12px;
+border-radius: 15px;
+text-align: right;
+padding-top: 3px;
+padding-bottom: 3px;
+color: #ffff;
+font-size: 14px;
+}
+.cal {
+
+background-color: #434a43;
+}
+.first_cal {
+text-align: left;
+display: flex;
+}
+.tous {
+font-size: 13.5px;
+color: #6a6a6a;
+display: flex;
+width: 100%;
+position: relative;
+margin-top: 12px;
+}
+.rest {
+position: absolute;
+right: 0;
+}
+.rest_div {
+position: absolute;
+margin-bottom: 12px;
+font-weight: bold;
+right: 0;
+}
+.outputs_calories, .outputs_Lipides, .outputs_sodium, .outputs_cholesterol {
+margin-bottom: 12px;
+display: flex;
+position: relative;
+}
+.cal_objectif, .lip_objectif, .sod_objectif, .chol_objectif {
+font-weight: bold;
+}
+.Sodium, .Cholesterol {
+margin-top: 20px;
+}
+span#num_nut {
+float: right;
+}
+.infos_ {
+display: flex;
+}
+
+div#name_nut {
+flex: 1;
+}
+div#num_nut {
+flex: 1;
+text-align: right;
+}
+p.ligne_:before {
+content: '';
+position: absolute;
+width: 110%;
+height: 2px;
+top: 10px;
+background: radial-gradient(#a2a2a2, transparent);
+right: 40%;
+display: flex;
+}
+
+p.ligne_ {
+  position: relative;
+}
+.activity {
+margin-top: 35px;
+display: flex;
+}
+
+.walking, .running, .watching {
+flex: 1;
+text-align: center;
+}
+
+
+.image_ {
+height: 165px;
+}
+h2.bruler_cal {
+text-align: center;
+}
+
+p#time_walking, p#time_running, p#time_watching {
+font-weight: bold;
+height: 60px;
+font-size: 25px;
+}
+.all_activity {
+display: none;
+}
+button#voire {
+padding: 12px 30px;
+background: #6e79ff;
+color: #fff;
+border: none;
+cursor: pointer;
+}
+
+input#poids {
+padding: 10px 30px;
+}
+
+.entrez_poids {
+text-align: center;
+margin-bottom: 30px;
+}

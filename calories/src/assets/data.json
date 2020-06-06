@@ -1,0 +1,124 @@
+[
+    {
+      "couscous": {
+
+        "values":[
+        "Amount Per 100g (couscous)",
+        "Calories: 112",
+        "Total Fat: 0.2 g",
+        "Total Carbohydrate: 23 g",
+        "Protein: 3.8 g"
+      ],
+
+      "rest": [
+        "Cholesterol: 0 mg",
+        "Sodium: 5 mg",
+        "Potassium: 58 mg",
+        "Vitamin A: 0%",
+        "Vitamin C: 0%",
+        "Calcium: 1%",
+        "Iron: 2%",
+        "Vitamin D: 0%",
+        "Vitamin B-6: 5%",
+        "Cobalamin: 0%",
+        "Magnesium: 2%"
+      ]
+      
+    },
+      "fish": {
+
+        "values": [
+        "Amount Per 100g (fish)",
+        "Calorie: 96",
+        "Total Fat: 1.7 g",
+        "Total Carbohydrate: 0 g",
+        "Protein: 20 g"
+        ],
+        "rest": [
+        "Cholesterol: 50 mg",
+        "Sodium: 52 mg",
+        "Potassium: 44 mg",
+        "Vitamin A: 0%",
+        "Vitamin C: 0%",
+        "Vitamin E: 2%",
+        "Calcium: 1%",
+        "Iron: 3%",
+        "Vitamin D: 16%",
+        "Vitamin B-6: 12%",
+        "Vitamin B-12: 66%",
+        "Magnesium: 7%"
+        ]
+      },
+      "spaghetti": {
+
+        "values": [
+        "Amount Per 100g (spaghetti)",
+        "Calories: 158",
+        "Total Fat: 0.9 g",
+        "Total Carbohydrate: 31 g",
+        "Protein: 6 g"
+      ],
+      "rest": [
+        "Cholesterol: 0 mg",
+        "Sodium: 1 mg",
+        "Potassium: 44 mg",
+        "Vitamin A: 0%",
+        "Vitamin C: 0%",
+        "Calcium: 0%",
+        "Iron: 7%",
+        "Vitamin D: 0%",
+        "Vitamin B-6: 0%",
+        "Cobalamin: 0%",
+        "Magnesium: 7%"
+      ]
+      },
+      "coke": {
+
+        "values": [
+          "Amount Per 100g (coke)",
+          "Calories: 38",
+          "Total Fat: 0 g",
+          "Total Carbohydrate: 10 g",
+          "Protein: 0.1 g"
+          
+        ],
+        "rest": [ 
+        "Cholesterol: 0 mg",
+        "Sodium: 4 mg",
+        "Potassium: 2 mg",
+        "Caffeine 8 mg",
+        "Vitamin A: 0%",
+        "Vitamin C: 0%",
+        "Calcium: 0%",
+        "Iron: 0%",
+        "Vitamin D: 0%",
+        "Vitamin B-6: 0%",
+        "Cobalamin: 0%",
+        "Magnesium: 7%"
+        ]
+      },
+      "rice": {
+        
+        "values": [
+        "Amount Per 100g (rice)",
+        "Calories: 130",
+        "Total Fat: 0.3 g",
+        "Total Carbohydrate: 28 g",
+        "Protein: 2.7 g"
+      ],
+      "rest": [
+        "Cholesterol: 0 mg",
+        "Sodium: 1 mg",
+        "Potassium: 35 mg",
+        "Vitamin A: 0%",
+        "Vitamin C: 0%",
+        "Calcium: 1%",
+        "Iron: 1%",
+        "Vitamin D: 0%",
+        "Vitamin B-6: 5%",
+        "Cobalamin: 0%",
+        "Magnesium: 3%"
+      ]
+      }
+    }
+  ]

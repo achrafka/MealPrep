@@ -1,0 +1,4 @@
+{
+  "connectionString": "mongodb://localhost/login",
+  "secret": "cloudatlas2004"
+}

@@ -1,0 +1,129 @@
+<div class="wrapper">
+  <form [formGroup]>
+    <input (change)=" predictButton(filename, 'file');" type="file" id="filename" #filename placeholder="Filename" size="100"/>
+    <button  (click)="predictClick(filenames, 'file');" #filenames disabled id="predictButtons">Predict</button>
+  </form>
+
+  <div id="predictions">
+    <div class="food-photo">
+    </div>
+    <div class="nutrition">
+      <div id="concepts"></div>
+    </div>
+  </div>
+
+</div>
+<div class="titres">
+  <h2>Objectifs quotidiens</h2>
+  <p>Comment cet aliment s'intègre-t-il à vos objectifs quotidiens ?</p>
+  <div class="calories">
+    <div class="outputs_calories">
+    <div class="rest_div"><span id="cal_rest" ></span> cal</div>
+    <div class="cal_objectif"><span>Objectif en calories</span></div>
+  </div>
+  <div class="bar">
+    <div class="bar_ cal" id="bar_calorie"></div>
+  </div>
+  <div class="tous">
+  <div class="first_cal">
+    <div class="num_tot"><span id="cal_total"></span> <span>/ 2 000 cal</span></div>
+  </div>
+  <div class="rest">
+      <span>restant(e)s</span>
+    </div>
+  </div>
+</div>
+  <h2>Objectifs fitness: Régime pour le cœur</h2>
+  <div class="Lipides">
+      <div class="outputs_Lipides">
+      <div class="rest_div"><span id="lip_rest" ></span>g</div>
+      <div class="lip_objectif"><span>Lipides</span></div>
+    </div>
+    <div class="bar">
+      <div class="bar_ cal" id="bar_Lipides"></div>
+    </div>
+    <div class="tous">
+    <div class="first_cal">
+      <div class="num_tot"><span id="lip_total"></span> <span>/ 67g</span></div>
+    </div>
+    <div class="rest">
+        <span>restant(e)s</span>
+      </div>
+    </div>
+  </div>
+  <div class="Sodium">
+      <div class="outputs_sodium">
+      <div class="rest_div"><span id="sod_rest" ></span>g</div>
+      <div class="sod_objectif"><span>Sodium</span></div>
+    </div>
+    <div class="bar">
+      <div class="bar_ cal" id="bar_sodium"></div>
+    </div>
+    <div class="tous">
+    <div class="first_sod">
+      <div class="num_tot"><span id="sod_total"></span> <span>/ 2 300g</span></div>
+    </div>
+    <div class="rest">
+        <span>restant(e)s</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="Cholesterol">
+      <div class="outputs_cholesterol">
+      <div class="rest_div"><span id="chol_rest" ></span>g</div>
+      <div class="chol_objectif"><span>Cholesterol</span></div>
+    </div>
+    <div class="bar">
+      <div class="bar_ cal" id="bar_cholesterol"></div>
+    </div>
+    <div class="tous">
+    <div class="first_chol">
+      <div class="num_tot"><span id="chol_total"></span> <span>/ 300g</span></div>
+    </div>
+    <div class="rest">
+        <span>restant(e)s</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Informations nutritionnelles</h2>
+  <div class="infos_">
+
+  <div class="nutritional_name" id="name_nut"></div>
+  <div class="nutritional_value" id="num_nut"></div>
+</div>
+<h2 class="bruler_cal">Activité nécessaire pour brûler : <span class="calories_a" id="calories_activity"></span> calories</h2>
+<div class="entrez_poids">
+<label for="poids">Votre Poids: </label>
+<input type="number" min="0" id="poids" placeholder="Votre poids en Kg">
+<button id="voire"> Voir Activité</button>
+</div>
+<div class="all_activity">
+
+  <div class="activity">
+  <div class="walking">
+    <div class="image_">
+    <img src="../../../assets/imgs/walking.jpg" width="100px" height="auto" alt="">
+  </div>
+    <p id="time_walking"></p>
+    <p><span id="walking_">Minutes</span> en marchant</p>
+  </div>
+  <div class="running">
+      <div class="image_">
+    <img src="../../../assets/imgs/running.png" width="130px" height="auto" alt="">
+    </div>
+    <p id="time_running"></p>
+    <p><span id="runnig_">Minutes</span> sur Course</p>
+  </div>
+
+  <div class="watching">
+      <div class="image_">
+    <img src="../../../assets/imgs/watching.jpg" width="130px" height="auto" alt="">
+    </div>
+    <p id="time_watching"></p>
+    <p> <span id="watching_">Minutes</span> en regardant la télé</p>
+  </div>
+</div>
+</div>
+</div>
